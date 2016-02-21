@@ -7,3 +7,6 @@ findWords2 <- function(fn = "tf.txt") {
   words <- split(1:length(txt), txt)
   return(words)
 }
+
+#-----------------------------------------------------------------------------80
+findWords2()

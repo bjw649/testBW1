@@ -1,8 +1,10 @@
 Package: testBW1
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Test Package Including Data and Two Word-count Functions
 Version: 0.1.0
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
+Authors@R: person("Brian", "Williams", email = "bjw649@gmail.com", role = c("aut", "cre"))
+#-----------------------------------------------------------------------------80
+Description: This is a test example incorporating two simple functions which do
+    word counts. A default test file called tf.txt is in the data folder.
+License: GPL-3
 LazyData: TRUE

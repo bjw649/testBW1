@@ -13,3 +13,7 @@ findWords1 <- function(fn = "tf.txt") {
   }
   return(wl)
 }
+
+#Test the function
+
+findWords1()
