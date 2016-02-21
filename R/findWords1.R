@@ -1,9 +1,7 @@
-findWords1 <- function(fn = "tf.txt") {
+findWords1 <- function() {
   # read in the words from the file, into a vector of mode character
   #Matloff p 92 (Modified)
-  pfn <- paste("../Data/", fn, sep = "")
-  cat("pfn:  ",pfn)
-  txt <- scan(pfn,"")
+  load("./data/txt.rda")
   tl <- length(txt)
   cat("The text file was read and there are ", tl, " words.")
   wl <- list()      # Create a list called wl with no elements

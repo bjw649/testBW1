@@ -1,12 +1,11 @@
-findWords2 <- function(fn = "tf.txt") {
+findWords2 <- function() {
   # read in the words from the file, into a vector of mode character
   #Matloff p126 (Modified)
-  pfn <- paste("../Data/", fn, sep = "")
-  cat("pfn:  ",pfn)
-  txt <- scan(pfn,"")
+  load("./data/txt.rda")
   words <- split(1:length(txt), txt)
   return(words)
 }
 
 #-----------------------------------------------------------------------------80
 findWords2()
+
