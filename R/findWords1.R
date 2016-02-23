@@ -1,5 +1,5 @@
-#' list the words in a block of text
-#' @param txt - a .Rda file containing a text file
+#' list the words in a text file
+#' @param pfn - a text file possibly with a path included.
 #' @return A list of the words and their sequence number in the file
 #' @export
 

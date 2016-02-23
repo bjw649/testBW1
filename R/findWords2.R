@@ -1,6 +1,6 @@
 #' findwords2: elegant improvement on findwords1
 #'
-#' @param txt - an .Rda file containing a text file
+#' @param pfn - a text file
 #'
 #' @return A list of the words and their sequence number in the file
 #' @export
