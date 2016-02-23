@@ -7,15 +7,12 @@
 findWords2(pfn = NULL)
 }
 \arguments{
-\item{txt}{- an .Rda file containing a text file}
+\item{pfn}{- a text file}
 }
 \value{
 A list of the words and their sequence number in the file
 }
 \description{
 findwords2: elegant improvement on findwords1
-}
-\examples{
-findwords2()
 }
 

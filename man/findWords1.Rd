@@ -2,22 +2,17 @@
 % Please edit documentation in R/findWords1.R
 \name{findWords1}
 \alias{findWords1}
-\title{list the words in a block of text}
+\title{list the words in a text file}
 \usage{
 findWords1(pfn = NULL)
 }
 \arguments{
-\item{txt}{- a .Rda file containing a text file}
+\item{pfn}{- a text file possibly with a path included.}
 }
 \value{
 A list of the words and their sequence number in the file
 }
 \description{
-list the words in a block of text
-}
-\examples{
-data(someWords)
-save(someWords, file="ttt", ascii=TRUE)
-findwords1("ttt")
+list the words in a text file
 }
 
