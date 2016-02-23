@@ -1,11 +1,19 @@
-findWords2 <- function() {
+#' findwords2: elegant improvement on findwords1
+#'
+#' @param txt - an .Rda file containing a text file
+#'
+#' @return A list of the words and their sequence number in the file
+#' @export
+
+findWords2 <- function(pfn = NULL) {
   # read in the words from the file, into a vector of mode character
   #Matloff p126 (Modified)
-  load("./data/txt.rda")
+  cat("pfn:  ",pfn)
+  txt <- scan(pfn,"")
   words <- split(1:length(txt), txt)
   return(words)
 }
 
-#-----------------------------------------------------------------------------80
-findWords2()
+
+
 
